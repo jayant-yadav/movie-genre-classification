@@ -1,3 +1,5 @@
 numpy
 pandas
 pymongo
+scikit-learn
+https://raw.githubusercontent.com/ultralytics/yolov5/master/requirements.txt
