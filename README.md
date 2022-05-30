@@ -112,7 +112,7 @@ after augmentation.
 
 ![After Augmentation](report_imgs/after_agumentation.png?raw=true)
 
-## System Design
+## System Design :jigsaw:
 
 ### Modified DenseNet-121
 
@@ -142,7 +142,7 @@ score for 20 genres.
 
 # Results
 
-## Model Accuracy
+## Model Accuracy :dart:
 
 The accuracy of a model is measured by taking the ratio of top *n*
 predicted scores to the number of genres in the ground truth, where is
@@ -181,11 +181,11 @@ being ’Crime’ and ’Drama’ by the model.
 
 ![  
 Predicted value: Crime, Drama  
-Ground truth: Comedy, Drama](report_imgs/jonny%20english_github.jpg?raw=true)
+Ground truth: Comedy, Drama](report_imgs/jonny%20english_github.png?raw=true)
 
 ![  
 Predicted value: Crime, Drama  
-Ground truth: Comedy, Drama](report_imgs/Gladiator_github.jpg?raw=true)
+Ground truth: Comedy, Drama](report_imgs/Gladiator_github.png?raw=true)
 
 ![  
 Predicted value: Crime, Drama  
