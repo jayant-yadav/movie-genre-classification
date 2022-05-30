@@ -108,9 +108,9 @@ Refer to Figure [\[appendix:before\_aug\]](#appendix:before_aug) and
 [2](#fig:after_aug) for the genre-wise breakdown of images before and
 after augmentation.
 
-![Before Augmentation](report_imgs/before_augmentation.png?raw=true)
+![Before Augmentation](report_imgs/before_augmentation.png?raw=true "Before Augmentation")
 
-![After Augmentation](report_imgs/after_agumentation.png?raw=true)
+![After Augmentation](report_imgs/after_agumentation.png?raw=true "After Augmentation")
 
 ## System Design :jigsaw:
 
@@ -123,7 +123,8 @@ instead of softwax function since we have the model has to predict
 values for a multi-label problem. It gives out a prediction score vector
 representing 20 genres.  
 
-![DenseNet121 Model](report_imgs/densenet.drawio.png?raw=true)
+![DenseNet121 Model](report_imgs/densenet.drawio.png?raw=true "DenseNet121 Model")  
+DenseNet121 Model  
 
 The loss function used is binary cross entropy. The system furthermore
 uses the Adam optimizer to alter the learning rate while doing gradient
@@ -138,7 +139,8 @@ dropout layers and ReLU as an activation function. The fully connected
 layer is then attached with a sigmoid function giving out a prediction
 score for 20 genres.
 
-![Custom CNN](report_imgs/densenet-Page-2.drawio%20(1).png?raw=true)
+![Custom CNN](report_imgs/densenet-Page-2.drawio%20(1).png?raw=true)  
+Custom CNN  
 
 # Results
 
@@ -181,15 +183,18 @@ being ’Crime’ and ’Drama’ by the model.
 
 ![  
 Predicted value: Crime, Drama  
-Ground truth: Comedy, Drama](report_imgs/jonny%20english_github.png?raw=true)
+Ground truth: Comedy, Drama](report_imgs/jonny%20english_github.png?raw=true)  
+Predicted value: Crime, Drama  | Ground truth: Comedy, Drama  
 
 ![  
 Predicted value: Crime, Drama  
-Ground truth: Comedy, Drama](report_imgs/Gladiator_github.png?raw=true)
+Ground truth: Comedy, Drama](report_imgs/Gladiator_github.png?raw=true)  
+Predicted value: Crime, Drama | Ground truth: Comedy, Drama  
 
 ![  
 Predicted value: Crime, Drama  
-Ground truth: Comedy, Drama](report_imgs/shanghai_story_github.jpg?raw=true)
+Ground truth: Comedy, Drama](report_imgs/shanghai_story_github.jpg?raw=true)  
+Predicted value: Crime, Drama | Ground truth: Comedy, Drama  
 
 ## Discussion
 
@@ -204,7 +209,8 @@ genre, but instead it belongs to ’Crime’ and ’Drama’, which was
 correctly identified by the model because of its dark features.
 
 ![Predicted value: Crime, Drama  
-Ground truth: Crime, Drama](report_imgs/carter_high_github.jpg?raw=true)
+Ground truth: Crime, Drama](report_imgs/carter_high_github.jpg?raw=true)  
+Predicted value: Crime, Drama | Ground truth: Crime, Drama  
 
 Secondly, most of our data set examples include several labels of
 different genres, of course in different combinations with each other.
